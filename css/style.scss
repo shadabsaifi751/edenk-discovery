@@ -1,0 +1,79 @@
+@import 'main';
+
+.navbar {
+    transition: all 0.4s ease-in-out;
+    .logo{
+        height: 42px;
+        @media (max-width: 768px) {
+            height: 22px;
+        }
+    }
+    .nav-item {
+        margin: 0 .5rem;
+
+        @media (max-width: 768px) {
+            margin: 0 0rem;
+            text-align: right;
+        }
+    }
+
+    .nav-link {
+        font-size: 18px;
+        font-weight: 500;
+        padding: 17px 22px;
+        color: $white !important;
+       
+    }
+}
+
+.bg-header{
+    background: url(../images/banner.jpg) no-repeat center center/cover;
+    width: 100%;
+    min-height: 450px;
+    @media (max-width:768px){
+        min-height: 330px !important;
+    }
+}
+.inner-banner{
+    background: url(../images/banner.jpg) no-repeat center center/cover;
+}
+footer{
+    background: #f9f9f9 url(../images/Mask.png) no-repeat center center/cover;
+    min-height: 616px;
+    padding-top: 212px !important;
+    @media (max-width:768px){
+        background-image: none !important;
+        background-color: $primary;
+        padding-top: 80px !important;
+    }
+    .unstyled-list{
+        list-style: none;
+        li{
+            margin-bottom: 8px;
+            a{
+                font-size: 14px;
+            }
+        }
+    }
+    .border-top {
+        border-top: 1px solid #345ac1!important;
+    }
+}
+
+#offcanvasScrolling{
+    width: 300px;
+    .nav{
+        .nav-item{
+          .nav-link{
+              color: $black;
+          }
+        } 
+    }
+}
+.accordion{
+    ul{
+        li{
+            margin-bottom: 15px;
+        }
+    }
+}

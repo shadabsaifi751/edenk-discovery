@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@300;400;500;600;700&display=swap');
+*{
+   box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
+}
+body{
+    font-family: $font;
+    color: $black !important;
+   p{
+      font-size: 16px;
+      font-weight: normal;
+      @media (max-width: 768px) {
+          font-size: 1rem;
+       }
+  }
+}
+html,body{
+   scroll-behavior: smooth;
+}
+.logo{
+   max-width: 200px; 
+   @media (max-width: 576px) {
+      max-width: 144px;
+   }
+}
+
+h1,h2,h3,h4,h5,h6{
+    // color: $black;
+}
+
+.fw-medium{
+   font-weight: 500;
+}
+.bg-primary{
+   background-color: $primary !important;
+}
+.text-black{
+   color: $black;
+}
+.fw-sembold{
+   font-weight: 600 !important;
+}
+.bg-black{
+   background-color: $black;
+}
+.text-secondary{
+   color: $primary !important;
+}
+.btn-secondary{
+    background-color: $secondry;
+}
+.bg-gradient{
+    background: linear-gradient(45deg, #00e69e, #37d5ff) !important;
+}
+.shadow {
+   box-shadow: 0 .2rem 0.4rem rgba(0,0,0,.15)!important;
+}
